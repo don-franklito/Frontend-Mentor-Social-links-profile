@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;  /* it works with grid too  */
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Off-Black);
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 600;
+    display: block;
+    padding: 20px 0;
+}
+
+img {
+    border-radius: 90px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: var(--White);
+    margin-top: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+    background-color: var(--Grey);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+li:hover > a {
+    background-color: var(--Green);
+    color: var(--Grey);
+}
+
+p {
+    color: var(--Green);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+legend {
+    color: var(--White);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 400px;
+    background-color: var(--Dark-Grey);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 375px) { 
+
+    main {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        width: 320px;
+    }
+}
+
+
+
+
+
