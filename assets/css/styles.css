@@ -42,7 +42,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 li {
@@ -62,6 +62,7 @@ p {
     color: var(--Green);
     font-weight: 700;
     margin-bottom: 30px;
+    font-size: 0.875rem;
 }
 
 legend {
